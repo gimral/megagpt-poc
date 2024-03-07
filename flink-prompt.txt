@@ -1,0 +1,1 @@
+Create a flink job that has two Kafka topic inputs, both topics has json structures, it should join the streams using the key fields, after joining it should perform a lookup from a Redis cache and send the output data to a Kafka topic

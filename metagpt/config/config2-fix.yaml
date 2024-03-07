@@ -1,0 +1,9 @@
+llm:
+  api_key: "API-KEY" # Change to OpenAPI Key and rename the file to config2.yaml
+  model: "gpt-3.5-turbo-1106"  # or gpt-3.5-turbo-1106 / gpt-4-1106-previewgit
+
+mermaid:
+  engine: "nodejs"
+  path: "mmdc"
+  puppeteer_config: "/app/metagpt/config/puppeteer-config.json"
+  pyppeteer_path: "/usr/bin/chromium"
